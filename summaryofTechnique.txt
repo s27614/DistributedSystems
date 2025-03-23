@@ -1,0 +1,13 @@
+Standard Merge:
+A standard merge creates a new commit that combines changes from both branches. 
+It preserves the complete history, showing when and where branches diverged and merged. 
+This method is useful when maintaining a clear history of all merges is important and when multiple team members contribute to different parts of the codebase.
+
+Squash Merge:
+Squash merge combines all commits from the feature branch into a single commit before merging it into the main branch. 
+This simplifies the history by reducing multiple commits into one. 
+It's ideal for keeping the main branch clean and concise, especially for small or experimental changes that don’t need detailed commit history.
+
+Rebase Merge:
+Rebasing rewrites the commit history by applying the changes from the feature branch directly on top of the main branch. 
+It makes the history linear and easier to follow. Rebase is suitable when you want a clean history without merge commits, but it can be dangerous in shared branches due to its rewriting of commit history.
