@@ -1,0 +1,29 @@
+#first git log output
+
+PS C:\Users\ceren\RiderProjects\DistributedSystems> git log --graph --oneline --all
+* 7bf2ab2 (HEAD -> main, feature-1) fifth  commit
+* d3f685a fourth  commit
+* 2b48360 third  commit
+* 1bd43bb second  commit
+* 5e722e9 initial commit
+* cd41b49 (origin/main, origin/HEAD) initial project
+
+#second git log
+PS C:\Users\ceren\RiderProjects\DistributedSystems> git log --graph --oneline --all   
+* 2f68fa4 (HEAD -> main) squashed feature-1
+| * 7bf2ab2 (feature-1) fifth  commit
+| * d3f685a fourth  commit
+| * 2b48360 third  commit
+| * 1bd43bb second  commit
+|/
+* 5e722e9 initial commit
+* cd41b49 (origin/main, origin/HEAD) initial project
+
+#third git log output
+PS C:\Users\ceren\RiderProjects\DistributedSystems> git log --graph --oneline --all
+* 7bf2ab2 (HEAD -> main, feature-1) fifth  commit
+* d3f685a fourth  commit
+* 2b48360 third  commit
+* 1bd43bb second  commit
+* 5e722e9 initial commit
+* cd41b49 (origin/main, origin/HEAD) initial project
